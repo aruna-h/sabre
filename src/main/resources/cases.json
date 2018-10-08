@@ -1,0 +1,46 @@
+{
+"geturl": {
+        "request": {
+            "url": "/flights/get",
+            "headers": {
+               
+            },
+            "body": {
+               
+               },
+               "method": "POST"
+           },
+          "response": {
+             "status": "OK",
+             "headers": {
+               
+             },
+             "body": {
+                "status": 200,
+                "message": "connected to url and got token"
+            }
+        }
+},
+"getendpoint": {
+        "request": {
+            "url": "/flights//getendpoint/{destination}",
+            "headers": {
+               
+            },
+            "body": {
+               
+               },
+               "method": "GET"
+           },
+          "response": {
+             "status": "OK",
+             "headers": {
+               
+             },
+             "body": {
+                "status": 200,
+                "message": "connected to url and got token"
+            }
+        }
+}
+}
